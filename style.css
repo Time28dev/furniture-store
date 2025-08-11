@@ -1,0 +1,183 @@
+*{
+    margin:0;
+        padding:0;
+             box-sizing: border-box;
+                 font-family: 'poppins', sans-serif;
+ }
+#top-container{
+        width:100%;
+            height: 30rem;
+             background-image: url(images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg);
+                 background-size: cover;
+                    margin-bottom: 12px;
+}
+#navbar{
+    display: flex;
+        width:90%;
+            height:4rem;
+                justify-content: space-between;
+            align-items: center;
+                margin:0 auto;
+
+}
+#logo{
+    height:5rem;
+        width: 5rem;
+}
+.logo-img{
+    width:100%;
+}
+ul{
+    display:flex;
+        gap:20px;
+            font-weight: 600;
+}       
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+        color:black;
+&:hover{
+    color:orange;
+}
+}
+.search{
+    width:1rem;
+        height: 1rem;
+            display:flex;
+}
+.search img{
+    width:100%;
+}
+.searchbar{
+    display:flex;
+        gap:-10px;
+}
+input, select{
+    border:none;
+        height: 1.5rem;
+}
+.login{
+    background-color: none;
+}
+.loginbtn{
+    border:none;
+}
+.top-content{
+    display:flex;
+     flex-direction: column;
+        gap:20px;
+            font-weight: 600;
+                width:90%;
+                    margin:4rem auto;
+}
+.brandname{
+    border-left:4px solid black;
+        padding:12px;
+}
+.shop{
+    width:8rem;
+         height:2rem;
+            color:white;
+                background-color: orange;
+                     border:none;
+                         border-radius: 8px;
+}
+
+.flex-container, .flex-container2{
+    display:flex;
+        width:90%;
+            height:18rem;
+                 justify-content: center;
+                     align-items: center;
+                         margin:15px auto;
+                            gap:10px;
+}
+.items{
+    width:25%;
+        height:17rem;
+}
+.items img{
+    width:100%;
+        height: 100%;
+}
+
+.flex-container2{
+    height: 23rem;
+}
+.flex-item1, .flex-item2{
+    display:flex;
+        flex-direction: column;
+            align-items: center;
+                justify-content: center;
+                     gap:1.5rem;
+                         width:50%;
+                            height: 22rem;
+                                font-weight: 600;
+                                background-image: url(images/minh-pham-7pCFUybP_P8-unsplash.jpg);
+                                    background-size: cover;
+}
+.flex-item2{ 
+    background-image: url(images/lotus-design-n-print-0sDzRgrN_pI-unsplash.jpg);
+        background-size: cover;
+}
+
+#titles{
+    display:flex;
+        width:90%;
+            margin:0 auto;
+                justify-content: space-between;
+                    align-items: center;
+}
+#titles-menu{
+    display:flex;
+        gap:15px;
+            font-size: smaller;
+                font-weight: 300;
+                    text-transform: uppercase;
+                        & h5:hover{
+                            font-size:medium;
+                             text-decoration: underline;
+}
+}
+.products{
+    width:8rem;
+        background-color: none;
+}
+.flexcon{
+    display:flex;
+        width:90%;
+            height:20rem;
+                 margin:0 auto;
+                     gap:10px;
+                         margin-bottom: 20px;
+}
+.wrap{
+    display:flex;
+        flex-direction: column;
+            width:25%;
+                height:25rem;
+                    gap:10px; 
+}
+.item{
+    height:15rem;
+}
+.wrap img{
+    width:100%;
+        height:100%;
+}
+.pricing{
+    display:flex;
+        flex-direction: column;
+            height:8rem;
+                width:100%;
+                    gap:2px;
+}
+.star{
+    width:25%;
+        height:1.5rem;
+}
+.star img{
+    width:100%; 
+}
